@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-top: 159px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #ee56be;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #e584b9;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #f75fec;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-left: 400px;
+    padding: 20px;
+    
+}
+
+.container-formulario {
+    background-color: #eba2a4;
+    padding: 10px;
+    border-radius: 10px;   
+    
+
+
+  
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead th {
+    background-color: #ccc;
+    font-weight: bold;
+    padding: 8px;
+}
+
+table tbody td {
+    padding: 8px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e5e5e5;
+}
+
+table a {
+    text-decoration: none;
+    color: #f674ed;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
